@@ -43,7 +43,7 @@ class TakePictureScreenState extends State<TakePictureScreen> {
   Widget build(BuildContext context) {
     // Fill this out in the next steps.
     return Scaffold(
-      appBar: AppBar(title: const Text('Take a picture - NIM Anda')),
+      appBar: AppBar(title: const Text('Take a picture - 2341720133')),
       // You must wait until the controller is initialized before displaying the
       // camera preview. Use a FutureBuilder to display a loading spinner until the
       // controller has finished initializing.

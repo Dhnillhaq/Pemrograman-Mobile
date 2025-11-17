@@ -1,3 +1,4 @@
+// (Tambahkan import di bagian atas - lihat bagian Troubleshoot di akhir)
 import 'dart:math' as math;
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart' show ViewportOffset;
@@ -51,11 +52,7 @@ class CarouselFlowDelegate extends FlowDelegate {
         ..multiply(Matrix4.diagonal3Values(itemScale, itemScale, 1.0))
         ..translate(-itemExtent / 2, -itemExtent / 2);
 
-      context.paintChild(
-        index,
-        transform: itemTransform,
-        opacity: opacity,
-      );
+      context.paintChild(index, transform: itemTransform, opacity: opacity);
     }
   }
 
