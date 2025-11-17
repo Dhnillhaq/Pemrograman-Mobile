@@ -13,7 +13,7 @@
 
 Buatlah sebuah project flutter baru dengan nama kamera_flutter, lalu sesuaikan style laporan praktikum yang Anda buat.
 
-![praktikum 1 langkah 1](images/praktikum1.1.png)
+![praktikum 1 langkah 1](assets/images/praktikum1.1.png)
 
 ### Langkah 2: Menambahkan dependensi yang diperlukan
 
@@ -24,7 +24,7 @@ Menambahkan tiga dependensi pada project flutter, yaitu:
 
 Untuk menambahkan dependensi plugin, jalankan perintah flutter pub add seperti berikut di terminal:
 
-![praktikum 1 langkah 2](images/praktikum1.2.png)
+![praktikum 1 langkah 2](assets/images/praktikum1.2.png)
 
 ### Langkah 3: Mengambil Sensor Kamera
 
@@ -124,7 +124,7 @@ lib/widget/takepicture_screen.dart
 @override
 Widget build(BuildContext context) {
   return Scaffold(
-    appBar: AppBar(title: const Text('Take a picture - Aditya Atadewa - 2341720174')),
+    appBar: AppBar(title: const Text('Take a picture - Muhammad Dhia Ramadhanil Haq - 2341720133')),
     body: FutureBuilder<void>(
       future: _initializeControllerFuture,
       builder: (context, snapshot) {
@@ -155,7 +155,7 @@ lib/widget/takepicture_screen.dart
 @override
 Widget build(BuildContext context) {
   return Scaffold(
-    appBar: AppBar(title: const Text('Take a picture - Aditya Atadewa - 2341720174')),
+    appBar: AppBar(title: const Text('Take a picture - Muhammad Dhia Ramadhanil Haq - 2341720133')),
     body: FutureBuilder<void>(
       // ... (Kode FutureBuilder dari Langkah 5) ...
     ),
@@ -199,7 +199,7 @@ class DisplayPictureScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Display the Picture - Aditya Atadewa - 2341720174')),
+      appBar: AppBar(title: const Text('Display the Picture - Muhammad Dhia Ramadhanil Haq - 2341720133')),
       body: Image.file(File(imagePath)),
     );
   }
@@ -266,7 +266,7 @@ floatingActionButton: FloatingActionButton(
 
 **Output Aplikasi kamera_flutter: (gif)**
 
-![Hasil Aplikasi Praktikum 1 (gif)](./gif/praktikum1.gif)
+![Hasil Aplikasi Praktikum 1 (gif)](assets/gif/praktikum1.gif)
 
 ---
 
@@ -659,11 +659,11 @@ Gabungkan hasil praktikum 1 dengan hasil praktikum 2 sehingga setelah melakukan 
 
 **Jawaban:**
 
-Project: [Kamera Filter Carousel](./kamera_filter_carousel_aditya/)
+Project: [Kamera Filter Carousel](./kamera_filter_carousel)
 
 **Output Aplikasi photo_filter_carousel: (gif)**
 
-![Hasil Aplikasi Kamera Filter Carousel (gif)](./gif/tugas_praktikum.gif)
+![Hasil Aplikasi Kamera Filter Carousel (gif)](assets/gif/praktikum2.gif)
 
 ### Soal 2
 
