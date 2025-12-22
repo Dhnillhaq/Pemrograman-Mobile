@@ -13,7 +13,7 @@
 
 Membuat sebuah project Flutter baru dengan nama **master_plan**, kemudian membuat susunan folder dalam project sesuai ketentuan yang telah ditetapkan.
 
-![praktikum 1 langkah 1](./media/praktikum1.1.png)
+![praktikum 1 langkah 1](./media/init%20project.png)
 
 ### Langkah 2: Membuat model `task.dart`
 
@@ -245,12 +245,6 @@ Setelah melakukan hot restart, aplikasi berhasil menampilkan:
 - Tombol tambah untuk menambah task baru
 - Scroll list dengan perilaku keyboard yang sesuai
 
-**Output Aplikasi yang dihasilkan:**
-
-| GIF Demo | Screenshot |
-| -------- | ---------- |
-| <img src="./media/praktikum1.gif" alt="Gif Output Aplikasi Praktikum 1" width="350"> | <img src="./media/praktikum1.webp" alt="Screenshot Output Aplikasi Praktikum 1" width="350"> |
-
 ---
 
 ## Tugas Praktikum 1
@@ -290,9 +284,9 @@ Lakukan capture hasil dari Langkah 9 berupa GIF, kemudian jelaskan apa yang tela
 
 ### Jawaban
 
-| GIF Demo | Screenshot|
-| -------- | --------- |
-| <img src="./media/praktikum1.gif" alt="Gif Output Aplikasi Praktikum 1" width="350"> | <img src="./media/praktikum1.webp" alt="Screenshot Output Aplikasi Praktikum 1" width="350"> |
+| GIF Demo |
+| -------- |
+| <img src="./media/master_plan.gif" alt="Gif Output Aplikasi Praktikum 1" width="350"> |
 
 **Penjelasan:**
 Pada langkah ini, dibuat widget `_buildTaskTile()` yang terdiri dari:
@@ -461,9 +455,9 @@ Widget build(BuildContext context) {
 
 **Output Aplikasi yang dihasilkan:**
 
-| GIF Demo | Screenshot |
-| -------- | ---------- |
-| <img src="./media/praktikum2.gif" alt="Gif Output Aplikasi Praktikum 2" width="350"> | <img src="./media/praktikum2.webp" alt="Screenshot Output Aplikasi Praktikum 2" width="350"> |
+| GIF Demo |
+| -------- |
+| <img src="./media/master_plan.gif" alt="Gif Output Aplikasi Praktikum 2" width="300">
 
 ---
 
@@ -524,9 +518,9 @@ Lakukan capture hasil dari Langkah 9 berupa GIF, kemudian jelaskan apa yang tela
 
 ### Jawaban
 
-| GIF Demo | Screenshot |
-| -------- | ---------- |
-| <img src="./media/praktikum2.gif" alt="Gif Output Aplikasi Praktikum 2" width="350"> | <img src="./media/praktikum2.webp" alt="Screenshot Output Aplikasi Praktikum 2" width="350"> |
+| GIF Demo |
+| -------- |
+| <img src="./media/master_plan.gif" alt="Gif Output Aplikasi Praktikum 2" width="300">
 
 **Penjelasan:**
 
@@ -831,9 +825,9 @@ Setelah menjalankan aplikasi:
 
 **Output Aplikasi yang dihasilkan:**
 
-| GIF Demo | Screenshot 1 | Screenshot 2 |
-| -------- | ------------ | ------------ |
-| <img src="./media/praktikum3.gif" alt="Gif Output Aplikasi Praktikum 3" width="300"> | <img src="./media/praktikum3.1.webp" alt="Screenshot Output Aplikasi Praktikum 3" width="300"> | <img src="./media/praktikum3.3.webp" alt="Screenshot Output Aplikasi Praktikum 3" width="300"> |
+| GIF Demo |
+| -------- |
+| <img src="./media/master_plan.gif" alt="Gif Output Aplikasi Praktikum 3" width="300">
 
 ---
 
@@ -879,9 +873,9 @@ Lakukan capture hasil dari Langkah 14 berupa GIF, kemudian jelaskan apa yang tel
 
 ### Jawaban
 
-| GIF Demo | Screenshot 1 | Screenshot 2 |
-| -------- | ------------ | ------------ |
-| <img src="./media/praktikum3.gif" alt="Gif Output Aplikasi Praktikum 3" width="300"> | <img src="./media/praktikum3.1.webp" alt="Screenshot Output Aplikasi Praktikum 3" width="300"> | <img src="./media/praktikum3.3.webp" alt="Screenshot Output Aplikasi Praktikum 3" width="300"> |
+| GIF Demo |
+| -------- |
+| <img src="./media/master_plan.gif" alt="Gif Output Aplikasi Praktikum 3" width="300">
 
 **Penjelasan**:
 
